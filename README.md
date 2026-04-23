@@ -38,7 +38,7 @@
 
 Создана папка `lab2`, в ней файл `main.py` со следующим кодом:
 
-```python
+python
 def calculate_average(numbers):
     total = 0
     for i in range(len(numbers)):
@@ -46,7 +46,7 @@ def calculate_average(numbers):
     return total / len(numbers)
 
 nums = [10, 20, 30]
-print(calculate_average(nums))
+print(calculate_average(nums)) 
 
 3.3 Проверка функций редактора
 Функция	Результат
